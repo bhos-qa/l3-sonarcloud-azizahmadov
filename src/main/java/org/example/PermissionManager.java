@@ -4,8 +4,7 @@ package org.example;
 public class PermissionManager {
     private PermissionLevel mCurrentLevel;
 
-    public PermissionManager() {
-        // Initialize the mCurrentLevel to USER
+    PermissionManager() {
         mCurrentLevel = PermissionLevel.USER;
     }
 
